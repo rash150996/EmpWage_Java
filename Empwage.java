@@ -25,11 +25,11 @@ public class Empwage
 					System.out.println("Monthly wage would be = Rs." + monthlywage );
 					break;
 				case 0:
-            	System.out.println("Employee works Part Time");
-            	int dailywagep = (WAGE_PER_HOUR * HOUR_PER_DAY_PART);
-            	System.out.println("Daily wage would be = Rs." + dailywagep);
-               int monthlywagep = (dailywagep * DAY_PER_MONTH );
-               System.out.println("Monthly wage would be = Rs." + monthlywagep );
+					System.out.println("Employee works Part Time");
+					int dailywagep = (WAGE_PER_HOUR * HOUR_PER_DAY_PART);
+					System.out.println("Daily wage would be = Rs." + dailywagep);
+					int monthlywagep = (dailywagep * DAY_PER_MONTH );
+					System.out.println("Monthly wage would be = Rs." + monthlywagep );
 					break;
 				default:
 					System.out.println("Invalid");
